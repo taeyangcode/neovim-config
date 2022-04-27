@@ -1,4 +1,4 @@
-require('lua/packer-manager')
+require('packer-manager')
 
 -- indentation
 vim.bo.tabstop = 2        -- set tab width to two columns  
