@@ -10,9 +10,15 @@ vim.bo.shiftwidth = 2     -- column width indentation on new line
 vim.bo.smartindent = true -- similar to autoindent
 
 -- colorscheme
-vim.o.termguicolors = true
-vim.o.background = "dark"
+-- set termguicolors true
+if not vim.api.nvim_get_option('termguicolors') then 
+  vim.o.termguicolors = true
+end 
 vim.cmd([[
 let g:everforest_background = "hard"
 colorscheme everforest
 ]])
+
+-- line number
+vim.wo.number = true
+vim.wo.relativenumber = true
