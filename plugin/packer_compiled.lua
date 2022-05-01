@@ -69,31 +69,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["coc-css"] = {
-    loaded = true,
-    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc-css",
-    url = "https://github.com/neoclide/coc-css"
-  },
-  ["coc-html"] = {
-    loaded = true,
-    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc-html",
-    url = "https://github.com/neoclide/coc-html"
-  },
-  ["coc-java"] = {
-    loaded = true,
-    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc-java",
-    url = "https://github.com/neoclide/coc-java"
-  },
-  ["coc-json"] = {
-    loaded = true,
-    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc-json",
-    url = "https://github.com/neoclide/coc-json"
-  },
-  ["coc-tsserver"] = {
-    loaded = true,
-    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc-tsserver",
-    url = "https://github.com/neoclide/coc-tsserver"
-  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/coc.nvim",

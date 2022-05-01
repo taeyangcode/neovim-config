@@ -1,10 +1,13 @@
 require('packer-manager')
 
 -- indentation
-vim.bo.tabstop = 2
-vim.bo.softtabstop = 2
-vim.bo.shiftwidth = 2
-vim.bo.expandtab = true
+
+vim.cmd([[
+set tabstop=2
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+]])
 
 -- colorscheme
 -- set termguicolors true
@@ -19,3 +22,4 @@ colorscheme everforest
 -- line number
 vim.wo.number = true
 vim.wo.relativenumber = true
+vim.go.scrolloff = 4

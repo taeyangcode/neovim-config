@@ -22,11 +22,6 @@ return require('packer').startup(function()
     'neoclide/coc.nvim',
     branch = 'release'
   }
-  use 'neoclide/coc-tsserver' -- typescript
-  use 'neoclide/coc-json'     -- json
-  use 'neoclide/coc-css'      -- css
-  use 'neoclide/coc-html'     -- html
-  use 'neoclide/coc-java'     -- java
 
   -- nerdtree
   use 'preservim/nerdtree'
