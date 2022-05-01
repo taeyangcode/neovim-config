@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/taeyang/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",

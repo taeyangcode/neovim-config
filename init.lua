@@ -1,13 +1,10 @@
 require('packer-manager')
 
 -- indentation
-vim.bo.tabstop = 2        -- set tab width to two columns  
-vim.bo.softtabstop = 2    -- above
-vim.bo.expandtab = true   -- correctly tab with two spaces
-vim.bo.smartindent = true -- automatic indents after braces, etc.
-vim.bo.autoindent = true  -- above
-vim.bo.shiftwidth = 2     -- column width indentation on new line 
-vim.bo.smartindent = true -- similar to autoindent
+vim.bo.tabstop = 2
+vim.bo.softtabstop = 2
+vim.bo.shiftwidth = 2
+vim.bo.expandtab = true
 
 -- colorscheme
 -- set termguicolors true
